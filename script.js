@@ -5,7 +5,7 @@ let userInput = 0
 function comparison () {
 // Get user input from box
   userInput = document.getElementById('input').value
-  
+
   // Determines what to say based on the age entered
   if (userInput >= 17) {
     document.getElementById('answer').innerHTML = 'You are able to see an R movie alone, as well as PG-13, PG, and G rated movies.'
